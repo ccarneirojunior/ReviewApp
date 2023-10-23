@@ -1,11 +1,12 @@
 ﻿namespace ReviewApp.Models
 {
-    public class Category
+    public class Country
     {
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public ICollection<AccountCategory> AccountCategories { get; set; }
+        public ICollection<Owner> Owners { get; set; }  
+
 
     }
 }
