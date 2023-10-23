@@ -6,5 +6,7 @@
         public int OwnerId { get; set; }
 
         public Account Account { get; set; }
+
+        public Owner Owner { get; set; }
     }
 }
